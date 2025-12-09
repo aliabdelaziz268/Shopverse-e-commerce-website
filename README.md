@@ -1,16 +1,53 @@
-# React + Vite
+# Shopverse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Shopverse is a modern, responsive e-commerce application built with React, Redux Toolkit, and Bootstrap. It offers a seamless shopping experience with features like product filtering, cart management, and secure checkout simulation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Responsive Design**: Fully responsive UI built with Bootstrap 5 and custom CSS.
+-   **Dynamic Animations**: Scroll-reveal animations using AOS (Animate On Scroll) library.
+-   **Product Management**:
+    -   Browse products by category.
+    -   **Search Functionality**: Filter products by title instantly.
+-   **Shopping Cart**:
+    -   Add/Remove items.
+    -   Adjust quantities.
+    -   Real-time total calculation.
+-   **Checkout Flow**:
+    -   **Payment Method Selection**: Credit Card, PayPal, or Cash on Delivery.
+    -   **Order Confirmation**: Visual confirmation page displaying the selected payment method.
+-   **Global Styling**: consistent color palette (Success Green theme) and typography.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **Frontend Framework**: React (Vite)
+-   **State Management**: Redux Toolkit
+-   **Routing**: React Router DOM v6
+-   **styling**: Bootstrap 5, React Icons, Custom CSS
+-   **Animations**: AOS
+-   **HTTP Client**: Axios
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/aliabdelaziz268/Shopverse-e-commerce-website.git
+    cd Shopverse-e-commerce-website
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**:
+    ```bash
+    npm start
+    ```
+
+## Project Structure
+
+-   `src/components`: Reusable UI components (Header, Footer, Product Cards).
+-   `src/pages`: Main application pages (Home, Cart, Products, OrderShipped).
+-   `src/store`: Redux slices for state management.
+-   `src/API`: API integration logic.
