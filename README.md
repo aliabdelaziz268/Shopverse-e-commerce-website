@@ -27,23 +27,6 @@ Shopverse is a modern, responsive e-commerce application built with React, Redux
 -   **Animations**: AOS
 -   **HTTP Client**: Axios
 
-## Getting Started
-
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/aliabdelaziz268/Shopverse-e-commerce-website.git
-    cd Shopverse-e-commerce-website
-    ```
-
-2.  **Install dependencies**:
-    ```bash
-    npm install
-    ```
-
-3.  **Run the development server**:
-    ```bash
-    npm start
-    ```
 
 ## Project Structure
 
